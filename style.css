@@ -155,14 +155,43 @@ body {
     pointer-events: none;
 }
 .hero-subtext {
-    color: #ffd200;             /* taxi yellow */
-    font-size: 20px;
+    color: white;             /* taxi yellow */
+    font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 15px;
     text-transform: uppercase;
     text-shadow: 0px 2px 5px rgba(0,0,0,0.6); /* helps visibility on dark bg */
 }
+
+.hero-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hero-btn {
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.call-btn {
+    background: #FFD400;
+    color: #000;
+    border: 2px solid white;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: #fff;
+    border: 2px solid white;
+}
+
 
 
 /* ================================
